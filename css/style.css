@@ -1,0 +1,42 @@
+
+#section1{
+    background-color: rgba(3, 40, 48, 0.13);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+#section1 div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #151515;
+    width: 800px;
+    align-items: center;
+    margin-left: 200px;
+}
+#nav-bar{
+    background-color: red;
+    color: white;
+}
+#section1 #save-btn{
+    background-color: #0e11d2;
+    width: 200px;
+    color: white;
+    margin-left:200px ;
+}
+#section1 #update-btn{
+    background-color: #20c997;
+    width: 200px;
+    color: white;
+    margin-left:200px ;
+}
+#section1 #delete-btn{
+    width: 200px;
+    color: white;
+    margin-left:200px ;
+}
+
+#section1 #all-btn{
+    width: 200px;
+    color: white;
+    margin-left:200px ;
+}
