@@ -30,10 +30,7 @@ $('#save-btn').click(function () {
     });
 });
 
-$('#update-btn').click(function () {
-    console.log("update button clicked");
 
-});
 
 $('#update-btn').click(function () {
     console.log("update button clicked");
