@@ -21,6 +21,7 @@ $('#save-btn').click(function () {
         }),
         success: function (result) {
             console.log(result);
+            clearForm();
             alert('Data saved successfully');
         },
         error: function (xhr, status, error) {
@@ -54,6 +55,7 @@ $('#update-btn').click(function () {
         }),
         success: function (result) {
             console.log(result);
+            clearForm();
             alert('Data updated successfully');
         },
         error: function (xhr, status, error) {
@@ -73,6 +75,7 @@ $('#delete-btn').click(function () {
         method: "DELETE",
         success: function (result) {
             console.log(result);
+            clearForm();
             alert('Data deleted successfully');
         },
         error: function (xhr, status, error) {
@@ -115,3 +118,9 @@ function loadTable(posts) {
     });
 }
 
+function clearForm() {
+    $('#id').val('');
+    $('#tittle').val('');
+    $('#text').val('');
+    $('#category').val('');
+}
