@@ -114,3 +114,4 @@ function loadTable(posts) {
         tbody.append(row);
     });
 }
+
